@@ -4,14 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <nav>
-        <ul>
-          <li></li>
-        </ul>
-      </nav>
+    <div class="main">
+      <!-- Navbar -->
+      <div class="wrapper-nav">
+        <nav class="container">
+          <div class="logo">
+            <p>LOGO</p>
+          </div>
+
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">WORK</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">ABOUT ME</a></li>
+          </ul>
+
+          <div>
+            <ul>
+              <li><a href="" class="login">LOGIN</a></li>
+              <li><a href="" class="register">REGISTER</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero  -->
+      <div class="hero">
+        <h1>PLAY TRADISIONAL GAME</h1>
+        <p>Experience new traditional game play</p>
+        <button>TRIAL</button>
+      </div>
+
+      <div class="scroll">
+        <p>THE STORY</p>
+        <img src="./assets/scroll-down.svg" alt="" />
+      </div>
     </div>
+
+    <div class="game">
+      <div class="container">
+        <div class="game-info">
+          <p>What’s so special?</p>
+          <h1>THE GAMES</h1>
+        </div>
+
+        <div class="slider">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/rockpaperstrategy.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/rockpaperstrategy.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/rockpaperstrategy.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature"></div>
+
+    <div class="about"></div>
+
+    <div class="score"></div>
+
+    <div class="newsletter"></div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
