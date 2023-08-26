@@ -1,0 +1,169 @@
+ul,
+p,
+h1,
+img {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main {
+  background-image: url(./assets/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+}
+
+.wrapper-nav {
+  background-color: #00000080;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 3rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 11.5rem;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+.hero p {
+  font-size: larger;
+}
+
+.hero button {
+  background-color: #ffb548;
+  border: none;
+  font-weight: bolder;
+  font-size: medium;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.scroll {
+  display: flex;
+  padding-top: 12.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll p {
+  color: white;
+  font-size: smaller;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.game {
+  background-image: url(./assets/the-games-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.game .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider {
+  width: 70%;
+  padding-top: 7.7rem;
+}
+
+.game-info {
+  padding-left: 2.5rem;
+  padding-top: 5.8rem;
+  width: 30%;
+  color: white;
+}
+
+.game-info p {
+  font-size: medium;
+}
+
+.game-info h1 {
+  font-size: xxx-large;
+}
+
+.feature {
+  background-image: url(./assets/features.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about {
+  background-image: url(./assets/requirements.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.score {
+  background-image: url(./assets/top-score-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.newsletter {
+  background-image: url(./assets/newsletter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
