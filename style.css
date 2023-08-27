@@ -139,6 +139,40 @@ nav ul li a {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  display: flex;
+}
+
+.feature-hero {
+  width: 60%;
+}
+
+.feature-tagline {
+  width: 40%;
+  padding-top: 9.5rem;
+}
+
+.feature-tittle {
+  color: white;
+}
+
+.feature-tittle p {
+  font-size: medium;
+}
+
+.feature-tittle h1 {
+  font-size: xxx-large;
+  padding-bottom: 1.5rem;
+}
+
+.feature-content h1 {
+  padding-top: 2rem;
+  font-size: large;
+  color: #ffb548;
+}
+
+.feature-content p {
+  color: white;
+  padding-bottom: 1rem;
 }
 
 .about {
