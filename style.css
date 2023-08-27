@@ -1,6 +1,8 @@
 ul,
 p,
 h1,
+h5,
+h6,
 img {
   margin: 0;
 }
@@ -61,16 +63,18 @@ nav ul li a {
   align-items: center;
   color: white;
   font-family: "Open Sans", sans-serif;
-  margin-top: 11.5rem;
+  margin-top: 9.5rem;
 }
 
 .hero h1 {
   font-weight: bold;
   font-size: xxx-large;
+  margin-bottom: 1rem;
 }
 
 .hero p {
   font-size: larger;
+  margin-bottom: 1.5rem;
 }
 
 .hero button {
@@ -87,7 +91,7 @@ nav ul li a {
 
 .scroll {
   display: flex;
-  padding-top: 12.5rem;
+  padding-top: 12rem;
   flex-direction: column;
   align-items: center;
 }
@@ -150,6 +154,7 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 1.6rem;
 }
 
 .timeline .progress-ellips {
@@ -177,15 +182,15 @@ nav ul li a {
 
 .feature-tittle p {
   font-size: medium;
+  padding-top: 2rem;
 }
 
 .feature-tittle h1 {
   font-size: xxx-large;
-  padding-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .feature-content h1 {
-  padding-top: 2rem;
   font-size: large;
   color: #ffb548;
 }
@@ -193,6 +198,14 @@ nav ul li a {
 .feature-content p {
   color: white;
   padding-bottom: 1rem;
+}
+
+.tittle h1 {
+  margin-bottom: 0.5rem;
+}
+
+.tittle-second {
+  padding-top: 2.5rem;
 }
 
 .about {
@@ -206,22 +219,24 @@ nav ul li a {
 
 .about-content {
   width: 50%;
-  padding-top: 9.5rem;
+  padding-top: 9rem;
   color: white;
 }
 
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 
 .wrapper .item h5 {
   color: #ffb548;
+  padding-bottom: 0.5rem;
 }
 
 .wrapper .item p {
   color: white;
+  padding-bottom: 1.5rem;
 }
 
 .score {
@@ -237,19 +252,22 @@ nav ul li a {
 
 .score .container {
   display: flex;
+  align-items: center;
 }
 
 .score-tagline {
   width: 40%;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
-.score-tagline h3 {
+.score-tagline h2 {
   color: white;
+  font-size: 2.5rem;
 }
 
 .score-tagline p {
   color: white;
+  padding-bottom: 1rem;
 }
 
 .score-tagline button {
@@ -267,29 +285,79 @@ nav ul li a {
 .score-content {
   width: 60%;
   margin-left: 8rem;
+  padding-top: 6rem;
 }
 
-.score-content .card {
-  width: 20rem;
+.score-content .card1 {
+  width: 22rem;
   margin-bottom: 1.5rem;
+  background-color: #ffffff14;
+  margin-left: 8rem;
+  border-radius: 0.5rem;
 }
 
-.card .profile {
+.score-content .card2 {
+  width: 22rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff14;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+}
+
+.score-content .card3 {
+  width: 22rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff14;
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+}
+
+.profile {
   display: flex;
   flex-direction: column;
 }
 
 .profile .profile-header {
   display: flex;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 .profile .profile-tittle {
   display: flex;
   flex-direction: column;
+  padding-left: 1.1rem;
 }
 
-.profile p {
-  color: black;
+.profile img {
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.profile-tittle h6 {
+  color: #ffb548;
+  padding-bottom: 0.2rem;
+}
+
+.profile-tittle p {
+  color: rgb(165, 161, 161);
+  font-size: small;
+}
+
+.profile-description .description {
+  color: white;
+}
+
+.profile-description {
+  padding-top: 1.3rem;
+  padding-left: 1rem;
+  padding-bottom: 1.3rem;
+  padding-right: 1rem;
+}
+
+.profile-description .date {
+  color: rgb(165, 161, 161);
 }
 
 .newsletter {
@@ -303,6 +371,7 @@ nav ul li a {
 
 .newsletter .container {
   display: flex;
+  padding-top: 10rem;
 }
 
 .newsletter-hero {
@@ -310,8 +379,19 @@ nav ul li a {
 }
 
 .newsletter-content {
-  width: 40%;
+  width: 50%;
+  padding-left: 5rem;
+}
+
+.newsletter-tagline h1 {
   color: white;
+}
+
+.newsletter-tagline p {
+  color: rgb(128, 125, 125);
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+  font-size: medium;
 }
 
 .newsletter-form .subscribe {
