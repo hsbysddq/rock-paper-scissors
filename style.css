@@ -215,8 +215,13 @@ nav ul li a {
   align-items: center;
 }
 
+.score .container {
+  display: flex;
+}
+
 .score-tagline {
-  width: 30%;
+  width: 40%;
+  margin-left: 2rem;
 }
 
 .score-tagline h3 {
@@ -241,6 +246,30 @@ nav ul li a {
 
 .score-content {
   width: 60%;
+  margin-left: 8rem;
+}
+
+.score-content .card {
+  width: 20rem;
+  margin-bottom: 1.5rem;
+}
+
+.card .profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .profile-header {
+  display: flex;
+}
+
+.profile .profile-tittle {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile p {
+  color: black;
 }
 
 .newsletter {
