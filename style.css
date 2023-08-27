@@ -142,6 +142,26 @@ nav ul li a {
   display: flex;
 }
 
+.feature-content {
+  display: flex;
+}
+
+.feature-content .timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline .progress-ellips {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+.timeline .progress {
+  width: 0.2rem;
+  height: 5rem;
+}
+
 .feature-hero {
   width: 60%;
 }
@@ -279,4 +299,29 @@ nav ul li a {
   background-position: center;
   width: 100vw;
   height: 100vh;
+}
+
+.newsletter .container {
+  display: flex;
+}
+
+.newsletter-hero {
+  width: 40%;
+}
+
+.newsletter-content {
+  width: 40%;
+  color: white;
+}
+
+.newsletter-form .subscribe {
+  background-color: #ffb548;
+  border: none;
+  font-weight: bolder;
+  font-size: medium;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
 }
