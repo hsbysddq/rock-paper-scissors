@@ -443,3 +443,47 @@ nav ul li a {
   width: 82%;
   margin-left: 7.8rem;
 }
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  .scroll {
+    padding-top: 16.5rem;
+  }
+
+  .hero {
+    margin-top: 12rem;
+  }
+
+  .slider {
+    padding-top: 13.5rem;
+  }
+
+  .game-info {
+    padding-top: 11.5rem;
+  }
+
+  .feature-tagline {
+    padding-top: 14.5rem;
+  }
+
+  .about-content {
+    padding-top: 13rem;
+  }
+
+  .about-content {
+    padding-top: 12.5rem;
+    padding-left: 2rem;
+  }
+
+  .score-content {
+    padding-top: 4rem;
+  }
+
+  .newsletter .container {
+    padding-top: 13rem;
+  }
+
+  .garis {
+    width: 87%;
+    margin-left: 5rem;
+  }
+}
