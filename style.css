@@ -499,10 +499,111 @@ nav ul li a {
   }
 
   .hero {
-    margin-top: 17rem;
+    margin-top: 17.5rem;
   }
 
   .scroll {
-    display: hidden;
+    display: none;
+  }
+
+  .game .container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16rem;
+    align-items: center;
+  }
+
+  .slider {
+    width: 70%;
+    padding-top: 2rem;
+  }
+
+  .game-info {
+    width: 70%;
+    padding: 0px;
+  }
+
+  .feature-hero {
+    width: 0%;
+  }
+
+  .feature-tagline {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0rem;
+    align-items: center;
+  }
+
+  .about .container {
+    width: 100%;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-content {
+    width: 80%;
+  }
+
+  .score .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  .score-tagline {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .score-tagline button {
+    display: none;
+  }
+
+  .score-content {
+    width: 80%;
+    margin-left: 0rem;
+    padding-top: 3rem;
+  }
+
+  .newsletter-hero {
+    width: 0%;
+  }
+
+  .newsletter-content {
+    width: 90%;
+    padding-left: 7rem;
+    padding-top: 9rem;
+  }
+
+  .newsletter-form {
+    display: flex;
+  }
+
+  .newsletter-form button {
+    width: 53%;
+  }
+
+  .newsletter-tagline p {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .garis {
+    border-top: 2px solid #938686;
+    width: 82%;
+    margin-left: 4rem;
+  }
+
+  .footer h1 {
+    font-size: small;
   }
 }
