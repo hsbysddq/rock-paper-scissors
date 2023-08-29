@@ -47,7 +47,7 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 nav ul li a {
@@ -485,5 +485,24 @@ nav ul li a {
   .garis {
     width: 87%;
     margin-left: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .logo {
+    font-size: large;
+  }
+
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .hero {
+    margin-top: 17rem;
+  }
+
+  .scroll {
+    display: hidden;
   }
 }
