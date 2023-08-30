@@ -607,3 +607,208 @@ nav ul li a {
     font-size: small;
   }
 }
+
+@media (min-width: 360px) and (max-width: 767px) {
+  nav ul li {
+    padding-left: 1rem;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: x-small;
+  }
+
+  .wrapper-nav .logo {
+    font-size: small;
+  }
+
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .hero {
+    margin-top: 13rem;
+  }
+
+  .hero h1 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0rem;
+  }
+
+  .hero p {
+    font-size: medium;
+    margin-bottom: 1rem;
+  }
+
+  .scroll {
+    display: none;
+  }
+
+  .hero button {
+    font-weight: bold;
+    font-size: small;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .game .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15rem;
+  }
+
+  .slider {
+    width: 80%;
+    padding-top: 1rem;
+  }
+
+  .game-info {
+    padding-top: 1rem;
+    width: 90%;
+  }
+
+  .game-info p {
+    font-size: medium;
+  }
+
+  .game-info h1 {
+    font-size: xx-large;
+  }
+
+  .feature {
+    background-position: left top;
+  }
+
+  .feature-hero {
+    width: 0%;
+  }
+
+  .feature-tagline {
+    width: 80%;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .feature-tittle h1 {
+    font-size: xx-large;
+    margin-bottom: 1rem;
+  }
+
+  .feature-content h1 {
+    font-size: medium;
+    color: #ffb548;
+  }
+
+  .about {
+    background-position: top left;
+  }
+
+  .about-content {
+    width: 100%;
+    padding-top: 8.5rem;
+  }
+
+  .wrapper .item h5 {
+    color: #ffb548;
+    padding-bottom: 0.5rem;
+  }
+
+  .wrapper .item p {
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+
+  .score .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .score-tagline {
+    width: 80%;
+    margin-left: 4rem;
+  }
+
+  .score-tagline h2 {
+    font-size: 2rem;
+  }
+
+  .score-tagline p {
+    display: none;
+  }
+
+  .score-tagline button {
+    display: none;
+  }
+
+  .score-content {
+    width: 80%;
+    margin-left: 0rem;
+    padding-top: 4rem;
+  }
+
+  .score-content .card1 {
+    width: 16rem;
+    margin-left: 0rem;
+  }
+
+  .score-content .card2 {
+    width: 16rem;
+    margin-left: 0rem;
+  }
+
+  .score-content .card3 {
+    width: 16rem;
+    margin-left: 0rem;
+  }
+
+  .newsletter .container {
+    padding-top: 1rem;
+  }
+
+  .newsletter-hero {
+    width: 0%;
+  }
+
+  .newsletter-content {
+    width: 80%;
+    padding-left: 2rem;
+  }
+
+  .newsletter-tagline p {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: medium;
+  }
+
+  .newsletter-tagline h1 {
+    font-size: x-large;
+  }
+
+  .newsletter-form input {
+    background-color: #ffffff14;
+    width: 15rem;
+    height: 3.2rem;
+    margin-right: 1.2rem;
+    border: none;
+    padding-left: 1.2rem;
+    border-radius: 0.3rem;
+  }
+
+  .newsletter-form .subscribe {
+    background-color: #ffb548;
+    border: none;
+    font-weight: bolder;
+    font-size: medium;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 0.25rem;
+  }
+}
