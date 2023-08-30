@@ -1,0 +1,118 @@
+ul,
+p,
+h1,
+h5,
+h6,
+img {
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.main {
+  background-color: #9c835f;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper-nav {
+  background-color: transparent;
+}
+
+.logo img {
+  width: 3rem;
+  height: 3rem;
+}
+.arrow img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tittle p {
+  color: #f9b23d;
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.container-game {
+  display: flex;
+}
+
+.container-game img {
+  margin-top: 2rem;
+  margin-right: 4rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper-player {
+  width: 45%;
+}
+
+.wrapper-computer {
+  width: 45%;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.versus img {
+  margin-top: 2rem;
+  margin-right: 4rem;
+  width: 4rem;
+  height: 4rem;
+  margin-top: 12.3rem;
+}
+
+.refresh img {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.player-tittle p {
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 7.8rem;
+}
+
+.computer-tittle p {
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 7.1rem;
+}
+
+.content {
+  background-color: #9c835f;
+  height: 2rem;
+}
