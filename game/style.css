@@ -150,3 +150,137 @@ nav {
     height: 4rem;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .container {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .wrapper-player {
+    width: 45%;
+    margin-left: 0.8rem;
+  }
+
+  .wrapper-computer {
+    width: 45%;
+    margin-left: 0.8rem;
+  }
+
+  .logo img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .arrow img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .tittle p {
+    font-size: xx-large;
+    padding-left: 2rem;
+  }
+
+  nav {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .player-tittle p {
+    font-size: xx-large;
+    padding-left: 3.5rem;
+  }
+
+  .computer-tittle p {
+    font-size: xx-large;
+    padding-left: 2.3rem;
+  }
+
+  .container-game img {
+    margin-top: 2rem;
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .versus img {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-top: 14.4rem;
+    margin-left: 0.8rem;
+  }
+
+  .refresh img {
+    margin-top: 4.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 0.8rem;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .wrapper-player {
+    width: 45%;
+    margin-left: 0.5rem;
+  }
+
+  .wrapper-computer {
+    width: 45%;
+    margin-left: 0.5rem;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .arrow img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .tittle p {
+    font-size: x-large;
+    padding-left: 0.1rem;
+  }
+
+  nav {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .player-tittle p {
+    font-size: x-large;
+    padding-left: 0rem;
+  }
+
+  .computer-tittle p {
+    font-size: x-large;
+    padding-left: 0rem;
+  }
+
+  .container-game img {
+    margin-top: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .versus img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 11.8rem;
+    margin-left: 2.3rem;
+  }
+
+  .refresh img {
+    margin-top: 4rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-left: 2.5rem;
+  }
+}
